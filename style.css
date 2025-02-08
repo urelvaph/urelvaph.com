@@ -22,6 +22,7 @@
     --fsmedium: 1.4em;
     --fslarge: 1.6em;
     --fsxl: 2em;
+    --fsxxl: 3em;
 }
 
 p {
@@ -149,13 +150,16 @@ header .navbar {
     display: flex;
     align-items: center;
     color: var(--white);
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 50px 50px;
     position: relative;
     animation: slideIn 1.5s ease-in-out forwards;
     opacity: 0;
 }
 
+.hero-section img {
+    width: 600px;
+}
 .hero-button {
     padding: 10px;
     border-radius: 10px;
@@ -187,6 +191,10 @@ header .navbar {
     color: var(--white);
     background: var(--glaucous);
     border: 1px solid var(--glaucous);
+}
+
+.hero-details .heading {
+    font-size: var(--fsxxl);
 }
 
 /* section 1 styling */
@@ -1220,6 +1228,7 @@ footer .copyright .copyright-link:hover {
         --fsmedium: 1.4em;
         --fslarge: 1.6em;
         --fsxl: 1.8em;
+        --fsxxl: 2em;
     }
 
     body.show-mobile-menu header::before {
