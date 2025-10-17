@@ -936,12 +936,10 @@ header .navbar {
 .team-section p {
     font-size: var(--fstiny);
     text-align: justify;
-    text-indent: 50px;
 }
 
 .team-section .team-section-title p {
     color: var(--navy-blue);
-    text-indent: 50px;
     font-size: var(--fssmall);
     text-align: justify;
 }
